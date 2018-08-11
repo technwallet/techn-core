@@ -28,7 +28,7 @@ async def lockscreen():
     label = storage.get_label()
     image = storage.get_homescreen()
     if not label:
-        label = "My TREZOR"
+        label = "My TECHN"
     if not image:
         image = res.load("apps/homescreen/res/bg.toif")
 

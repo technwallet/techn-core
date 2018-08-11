@@ -14,10 +14,10 @@ async def homescreen():
 
 def display_homescreen():
     if not storage.is_initialized():
-        label = "Go to trezor.io/start"
+        label = "Go to techn.io/start"
         image = None
     else:
-        label = storage.get_label() or "My TREZOR"
+        label = storage.get_label() or "My TECHN"
         image = storage.get_homescreen()
 
     if not image:
